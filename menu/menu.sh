@@ -89,7 +89,17 @@ Exp=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 PS="https://raw.githubusercontent.com/Jengkolonline/begeg/main/testa.sh"
 clear
-echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
+echo ""
+echo -e "$green _______  _______   ______   ______   ______  __    __  ______   ______   ______   $NC"
+echo -e "$green|       \|       \ /      \ /      \ /      \|  \  |  \/      \ /      \ /      \  $NC"
+echo -e "$green| ▓▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\ ▓▓\ | ▓▓  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\ $NC"
+echo -e "$green| ▓▓  | ▓▓ ▓▓__| ▓▓ ▓▓__| ▓▓ ▓▓ __\▓▓ ▓▓  | ▓▓ ▓▓▓\| ▓▓ ▓▓__/ ▓▓ ▓▓__/ ▓▓ ▓▓__/ ▓▓ $NC"
+echo -e "$green| ▓▓  | ▓▓ ▓▓    ▓▓ ▓▓    ▓▓ ▓▓|    \ ▓▓  | ▓▓ ▓▓▓▓\ ▓▓\▓▓    ▓▓\▓▓    ▓▓\▓▓    ▓▓ $NC"
+echo -e "$green| ▓▓  | ▓▓ ▓▓▓▓▓▓▓\ ▓▓▓▓▓▓▓▓ ▓▓ \▓▓▓▓ ▓▓  | ▓▓ ▓▓\▓▓ ▓▓_\▓▓▓▓▓▓▓_\▓▓▓▓▓▓▓_\▓▓▓▓▓▓▓ $NC"
+echo -e "$green| ▓▓__/ ▓▓ ▓▓  | ▓▓ ▓▓  | ▓▓ ▓▓__| ▓▓ ▓▓__/ ▓▓ ▓▓ \▓▓▓▓  \__/ ▓▓  \__/ ▓▓  \__/ ▓▓ $NC"
+echo -e "$green| ▓▓    ▓▓ ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  \▓▓▓\▓▓    ▓▓\▓▓    ▓▓\▓▓    ▓▓ $NC"
+echo -e "$green \▓▓▓▓▓▓▓ \▓▓   \▓▓\▓▓   \▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓  \▓▓▓▓▓▓  $NC"
+                                                                                                                                                                                                                                                  
 echo -e " \033[35m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[35m│$NC\033[33m                  Dragon Emperor                  $NC\033[35m│\e[0m"
 echo -e " \033[35m╰══════════════════════════════════════════════════════════╯\e[0m"
