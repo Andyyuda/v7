@@ -107,18 +107,18 @@ echo -e "OHP OpenSSH : 8686"
 echo -e "OHP OpenVPN : 8787"
 echo -e "UDPGW       : 7100-7300"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " 🔰Account OpenVPN🔰 "
+echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
 echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
-echo -e " 🔰Account OpenVPN OHP🔰 "
+echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " 🔰Account UDP 1🔰 "
+echo -e " Account UDP 1 "
 echo -e "$domen:54-65535@$Login:$Pass"
-echo -e " 🔰Account UDP 2🔰 "
+echo -e " Account UDP 2 "
 echo -e "$IP:10000-10150@$Login:$Pass"
-echo -e " 🔰Account UDP 3🔰 "
+echo -e " Account UDP 3 "
 echo -e "$domen:1-65535@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "Payload WSS"
@@ -167,18 +167,18 @@ OHP OpenVPN : 8787
 Prot Squid  : $sqd
 UDPGW       : 7100-7300
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔰Account OpenVPN🔰 
+Account OpenVPN
 OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn
 OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn
 OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn
-🔰Account OpenVPN OHP🔰 
+Account OpenVPN OHP 
 OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔰Account UDP 1🔰 
+Account UDP 1 
 $domen:54-65535@$Login:$Pass
-🔰Account UDP 2🔰 
+Account UDP 2 
 $IP:10000-10150@$Login:$Pass
-🔰Account UDP 3🔰 
+Account UDP 3 
 $domen:1-65535@$Login:$Pass
 \033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Payload WSS
@@ -230,18 +230,18 @@ echo -e "OHP OpenSSH : 8686"
 echo -e "OHP OpenVPN : 8787"
 echo -e "UDPGW       : 7100-7300"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " 🔰Account OpenVPN🔰 "
+echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
 echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
-echo -e " 🔰Account OpenVPN OHP🔰 "
+echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " 🔰Account UDP 1🔰 "
+echo -e " Account UDP 1 "
 echo -e "$domen:54-65535@$Login:$Pass"
-echo -e " 🔰Account UDP 2🔰 "
+echo -e " Account UDP 2 "
 echo -e "$IP:10000-10150@$Login:$Pass"
-echo -e " 🔰Account UDP 3🔰 "
+echo -e " Account UDP 3 "
 echo -e "$domen:1-65535@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "Payload WSS"
