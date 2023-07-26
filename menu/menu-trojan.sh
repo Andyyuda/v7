@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DF='\e[39m'
 Bold='\e[1m'
 Blink='\e[5m'
