@@ -222,8 +222,8 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/Andyyuda/v7/main/menu.sh"
-wget -O menu-vmess "https://raw.githubusercontent.com/Andyyuda/v7/main/menu-vmess.sh"
+wget -O menu "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/menu.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/Andyyuda/v7/main/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/Andyyuda/v7/main/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/clearcache.sh"
