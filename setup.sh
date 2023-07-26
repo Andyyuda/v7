@@ -273,9 +273,7 @@ echo -e "$green          Install SLOWDNS              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 0.5
 clear
-wget -q -O /tmp/nameserver "https://raw.githubusercontent.com/Jengkolonline/slowdns/main/nameserver" >/dev/null 2>&1
-chmod +x /tmp/nameserver
-bash /tmp/nameserver | tee /root/install.log
+wget -q -O slow.sh https://raw.githubusercontent.com/Andyyuda/xray-ssh/main/slow.sh && chmod +x slow.sh && ./slow.sh
 cat> /root/.profile << END
 if [ "$BASH" ]; then
 if [ -f ~/.bashrc ]; then
