@@ -111,17 +111,16 @@ echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest    
 echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}                             $NC\033[31m│$NC"
 echo -e " \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[32m╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " \033[32m│\e[0m [\e[36m01\e[0m] SSH & OpenVPN Menu     \033[32m│\e[0m [\e[36m07\e[0m] L2TP Menu             $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m02\e[0m] Vmess Menu             \033[32m│\e[0m [\e[36m08\e[0m] PPTP Menu             $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m03\e[0m] Vless Menu             \033[32m│\e[0m [\e[36m09\e[0m] SSTP Menu             $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m04\e[0m] Trojan GFW Menu        \033[32m│\e[0m [\e[36m10\e[0m] SHADOWSOKS R Menu     $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m05\e[0m] Shadowsoks Menu        \033[32m│\e[0m [\e[36m11\e[0m] SHADOWSOKS-Libev Menu $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m06\e[0m] Install UDP            \033[32m│\e[0m [\e[36m12\e[0m] WIREGUARD Menu        $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m01\e[0m] SSH & OpenVPN Menu                   $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m02\e[0m] Vmess Menu                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m03\e[0m] Vless Menu                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m04\e[0m] Trojan GFW Menu                      $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m05\e[0m] Install UDP                          $NC\033[32m│$NC"
 echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[33m╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " \033[33m│\e[0m [\e[36m13\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m16\e[0m] BOT Menu              $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m14\e[0m] Check Running          \033[33m│\e[0m [\e[36m17\e[0m] Backup Menu           $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m15\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m18\e[0m] SYSTEM Tambahan       $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m06\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m09\e[0m] BOT Menu              $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m07\e[0m] Check Running          \033[33m│\e[0m [\e[36m10\e[0m] Backup Menu           $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m08\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m11\e[0m] SYSTEM Tambahan       $NC\033[33m│$NC"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}                                       $NC\033[34m│$NC"
@@ -139,19 +138,12 @@ case $opt in
 2) clear ; menu-vmess ;;
 3) clear ; menu-vless ;;
 4) clear ; menu-trojan ;;
-5) clear ; m-ssws ;;
-6) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-7) clear ; menu-l2tp ;;
-8) clear ; menu-pptp ;;
-9) clear ; menu-sstp ;;
-10) clear ; menu-ssr ;;
-11) clear ; menu-ssl ;;
-12) clear ; menu-wg ;;
-13) clear ; menu-set ;;
-14) clear ; running ;;
-15) clear ; wget ${PS} && chmod +x testa.sh && ./testa.sh ;;
-16) clear ; menu-bot ;;
-17) clear ; menu-backup ;;
-18) clear ; menu-tambah ;;
+5) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+6) clear ; menu-set ;;
+7) clear ; running ;;
+8) clear ; wget ${PS} && chmod +x testa.sh && ./testa.sh ;;
+9) clear ; menu-bot ;;
+10) clear ; menu-backup ;;
+11) clear ; menu-tambah ;;
 x) exit ;;
 esac
