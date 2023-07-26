@@ -115,45 +115,47 @@ echo -e " \033[36m╰═══════════════════�
 echo -e "   \e[33m Ssh/Ovpn     \e[31mVmess     \e[32mVless     \e[36mTrojan     \e[34mShadowsoks \e[0m"
 echo -e " ${putih}      $total_ssh           $vmess         $vless          $trojan             $ss ${NC}"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
-echo -e " \033[31m│$NC \e[34m Traffic\e[0m       \e[31mToday      \e[33mYesterday        \e[32mMonth         $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Download\e[0m   ${putih}   $dtoday    $dyest       $dmon   ${NC}                            $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}                            $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}                             $NC\033[31m│$NC"
+echo -e " \033[31m│$NC \e[34m Traffic\e[0m       \e[31mToday      \e[33mYesterday        \e[32mMonth $NC'
+echo -e " \033[31m│$NC \e[36m Download\e[0m   ${putih}   $dtoday    $dyest       $dmon   ${NC}                           
+echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}
+echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC} 
 echo -e " \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
-echo -e " \033[32m╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " \033[32m│\e[0m [\e[36m01\e[0m] SSH & OpenVPN Menu                   $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m02\e[0m] Vmess Menu                           $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m03\e[0m] Vless Menu                           $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m04\e[0m] Trojan GFW Menu                      $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m05\e[0m] Install UDP                          $NC\033[32m│$NC"
-echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
+
 echo -e " \033[33m╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " \033[33m│\e[0m [\e[36m06\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m09\e[0m] BOT Menu              $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m07\e[0m] Check Running          \033[33m│\e[0m [\e[36m10\e[0m] Backup Menu           $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m08\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m11\e[0m] SYSTEM Tambahan       $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m01\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m04\e[0m] BOT Menu              $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m02\e[0m] Check Running          \033[33m│\e[0m [\e[36m15\e[0m] Backup Menu           $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m03\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m06\e[0m] SYSTEM Tambahan       $NC\033[33m│$NC"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯${NC}"
+
+echo -e " \033[32m╭══════════════════════════════════════════════════════════╮${NC}"
+echo -e " \033[32m│\e[0m [\e[36m07\e[0m] SSH & OpenVPN Menu                   $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m08\e[0m] Vmess Menu                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m09\e[0m] Vless Menu                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m10\e[0m] Trojan GFW Menu                      $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Install UDP                          $NC\033[32m│$NC"
+echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}                                       $NC\033[34m│$NC"
-echo -e " \033[34m│$NC \e[33m Exp Script${NC}    :  ${putih}$Exp${NC}                                       $NC\033[34m│$NC"
-echo -e " \033[34m│$NC \e[32m Version${NC}       :  ${putih}1.0.0${NC}                                  $NC\033[34m│$NC"
+echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}"               
+echo -e " \033[34m│$NC \e[33m Exp Script${NC}    :  ${putih}$Exp${NC}"                                    
+echo -e " \033[34m│$NC \e[32m Version${NC}       :  ${putih}1.0.0${NC}"       
 echo -e " \033[34m╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
 echo -e ""
 echo -e   " Press x or [ Ctrl+C ] • To-Exit-Script"
 echo -e   ""
 read -p "  Select menu :  "  opt
 echo -e   ""
 case $opt in
-1) clear ; menu-ssh ;;
-2) clear ; menu-vmess ;;
-3) clear ; menu-vless ;;
-4) clear ; menu-trojan ;;
-5) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-6) clear ; menu-set ;;
-7) clear ; running ;;
-8) clear ; wget ${PS} && chmod +x testa.sh && ./testa.sh ;;
-9) clear ; menu-bot ;;
-10) clear ; menu-backup ;;
-11) clear ; menu-tambah ;;
+1) clear ; menu-set ;;
+2) clear ; running ;;
+3) clear ; wget ${PS} && chmod +x testa.sh && ./testa.sh ;;
+4) clear ; menu-bot ;;
+5) clear ; menu-backup ;;
+6) clear ; menu-tambah ;;
+7) clear ; menu-ssh ;;
+8) clear ; menu-vmess ;;
+9) clear ; menu-vless ;;
+10) clear ; menu-trojan ;;
+11) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+
 x) exit ;;
 esac
