@@ -123,7 +123,7 @@ echo -e " \033[31m╰═══════════════════�
 
 echo -e " \033[33m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[33m│\e[0m [\e[36m01\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m04\e[0m] BOT Menu              $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m02\e[0m] Check Running          \033[33m│\e[0m [\e[36m15\e[0m] Backup Menu           $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m02\e[0m] Check Running          \033[33m│\e[0m [\e[36m05\e[0m] Backup Menu           $NC\033[33m│$NC"
 echo -e " \033[33m│\e[0m [\e[36m03\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m06\e[0m] Ganti PW VPS       $NC\033[33m│$NC"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯${NC}"
 
@@ -150,7 +150,7 @@ case $opt in
 3) clear ; wget ${PS} && chmod +x testa.sh && ./testa.sh ;;
 4) clear ; menu-bot ;;
 5) clear ; menu-backup ;;
-6) clear ; menu-tambah ;;
+6) clear ; passwd ;;
 7) clear ; menu-ssh ;;
 8) clear ; menu-vmess ;;
 9) clear ; menu-vless ;;
