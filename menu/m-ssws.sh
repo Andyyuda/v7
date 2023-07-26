@@ -16,8 +16,8 @@ ORANGE='\033[0;33m'
 LIGHT='\033[0;37m'
 grenbo="\e[92;1m"
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
-export CHATID="1830342336"
-export KEY="6320035110:AAE6otySdlNHPhKom2PNtp8yZn8X8rZS7LE"
+export CHATID="5862048483"
+export KEY="6307367714:AAG_Gae1CEjB-BDTYLzHSb89kbmLxzln7mk"
 export TIME="10"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
