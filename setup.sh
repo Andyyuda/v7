@@ -237,7 +237,7 @@ echo -e "$green          Install Websocket None TLS              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/Jengkolonline/Andyyuda/main/sshws/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+wget https://raw.githubusercontent.com/Andyyuda/main/sshws/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install OpenVPN              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
