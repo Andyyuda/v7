@@ -42,6 +42,7 @@ GREEN='\033[0;32m'
 ORANGE='\033[0;33m'
 LIGHT='\033[0;37m'
 domain=$(cat /etc/xray/domain)
+sldomain=$(cat /root/nsdomain)
 modifyTime=$(stat $HOME/.acme.sh/${domain}_ecc/${domain}.key | sed -n '7,6p' | awk '{print $2" "$3" "$4" "$5}')
 modifyTime1=$(date +%s -d "${modifyTime}")
 currentTime=$(date +%s)
@@ -111,6 +112,7 @@ echo -e " \033[36m│$NC \e[36m Total Amount Of RAM  \e[0m:  $tram MB"
 echo -e " \033[36m│$NC \e[36m System Uptime        \e[0m:  $uptime "
 echo -e " \033[36m│$NC \e[36m Isp Name             \e[0m:  $ISP"
 echo -e " \033[36m│$NC \e[36m Domain               \e[0m:  $domain"
+echo -e " \033[36m│$NC \e[36m NS Domain            \e[0m:  $sldomain"
 echo -e " \033[36m│$NC \e[36m Ip Vps               \e[0m:  $IPVPS"
 echo -e " \033[36m│$NC \e[36m CPU Usage            \e[0m:  $cpu_usage"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
