@@ -269,6 +269,7 @@ wget -O menu-pptp "https://raw.githubusercontent.com/Andyyuda/ipsec/main/menu-pp
 wget -O menu-ssr "https://raw.githubusercontent.com/Andyyuda/ssr/main/menu-ssr.sh"
 wget -O menu-ssl "https://raw.githubusercontent.com/Andyyuda/shadowsocks-libev/main/menu-ssl.sh"
 wget -O menu-wg "https://raw.githubusercontent.com/Andyyuda/wireguard/main/menu-wg.sh"
+wget -O update1 "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/update1.sh"
 chmod +x menu
 chmod +x menu-vmess
 chmod +x menu-vless
@@ -316,6 +317,7 @@ chmod +x menu-pptp
 chmod +x menu-ssr
 chmod +x menu-ssl
 chmod +x menu-wg
+chmod +x update1
 cd
 cat > /etc/cron.d/re_otm <<-END
 SHELL=/bin/sh
