@@ -88,6 +88,8 @@ Name=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 PS="https://raw.githubusercontent.com/Jengkolonline/begeg/main/testa.sh"
+export sem=$( curl -s https://raw.githubusercontent.com/Andyyuda/v7/main/versions)
+export pak=$( cat /home/.ver
 clear
 echo ""
 echo -e "$green _______  _______   ______   ______   ______  __    __  ______   ______   ______   $NC"
