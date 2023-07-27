@@ -231,7 +231,6 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 0.5
 clear
 wget https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-#wget https://raw.githubusercontent.com/Jengkolonline/Andyyuda/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 wget https://raw.githubusercontent.com/Andyyuda/v4/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install Websocket None TLS              $NC"
