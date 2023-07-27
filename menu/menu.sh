@@ -135,6 +135,7 @@ echo -e " \033[32m│\e[0m [\e[36m08\e[0m] Vmess Menu                           
 echo -e " \033[32m│\e[0m [\e[36m09\e[0m] Vless Menu                           $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m10\e[0m] Trojan GFW Menu                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Install UDP                          $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Update Scripts                       $NC\033[32m│$NC"
 echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}"               
@@ -158,5 +159,6 @@ case $opt in
 9) clear ; menu-vless ;;
 10) clear ; menu-trojan ;;
 11) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+12) clear ; update1 ;;
 x) exit ;;
 esac
