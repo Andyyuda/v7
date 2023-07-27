@@ -3,9 +3,6 @@ dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Dat
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
 # Getting
-sldomain=$(cat /root/nsdomain)
-cdndomain=$(cat /root/awscdndomain)
-slkey=$(cat /etc/slowdns/server.pub
 clear
 export CHATID="5862048483"
 export KEY="6307367714:AAG_Gae1CEjB-BDTYLzHSb89kbmLxzln7mk"
@@ -45,6 +42,7 @@ domen=`cat /etc/v2ray/domain`
 fi
 PUB=$( cat /etc/slowdns/server.pub )
 NS=`cat /etc/xray/dns`
+sldomain=`cat /root/nsdomain`
 portsshws=`cat ~/log-install.txt | grep -w "SSH Websocket" | cut -d: -f2 | awk '{print $1}'`
 wsssl=`cat /root/log-install.txt | grep -w "SSH SSL Websocket" | cut -d: -f2 | awk '{print $1}'`
 
@@ -108,7 +106,7 @@ echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
 echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
 echo -e "Host DNS    : $sldomain" | tee -a /etc/log-create-user.log
 echo -e "User Quota  : ${Quota} GB" | tee -a /etc/log-create-user.log
-echo -e "PUB KEY     : $slkey" | tee -a /etc/log-create-user.log
+echo -e "PUB KEY     : ${PUB}" | tee -a /etc/log-create-user.log
 echo -e "OpenSSH     : $opensh" | tee -a /etc/log-create-user.log
 echo -e "Dropbear    : $db" | tee -a /etc/log-create-user.log
 echo -e "SSH-WS      : $portsshws" | tee -a /etc/log-create-user.log
@@ -172,7 +170,7 @@ Tinggal Copy: $domen:80/443@$Login:$Pass
 IP          : $IP
 Host        : $domen
 Host DNS    : $sldomain
-PUB KEY     : $slkey
+PUB KEY     : ${PUB}
 User Quota  : ${Quota} GB
 OpenSSH     : $opensh
 Dropbear    : $db
