@@ -583,4 +583,4 @@ if [ -f /root/scdomain ];then
 rm /root/scdomain > /dev/null 2>&1
 fi
 clear
-rm -f ins-xray1.sh  
+rm -f ins-xray.sh  
