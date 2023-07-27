@@ -224,7 +224,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
 echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
-echo -e "Host DNS    : $NS" | tee -a /etc/log-create-user.log
+echo -e "Host DNS    : $sldomain" | tee -a /etc/log-create-user.log
 echo -e "User Quota  : ${Quota} GB" | tee -a /etc/log-create-user.log
 echo -e "PUB KEY     : ${PUB}" | tee -a /etc/log-create-user.log
 echo -e "OpenSSH     : $opensh" | tee -a /etc/log-create-user.log
