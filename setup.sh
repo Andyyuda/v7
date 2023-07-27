@@ -295,9 +295,9 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
+serverV=$( curl -sS https://raw.githubusercontent.com/Andyyuda/v7/main/version  )
 echo $serverV > /opt/.ver
-aureb=$(cat /home/re_otm)
-b=11
+aureb=$(cat /home/re_otm)b=11
 if [ $aureb -gt $b ]
 then
 gg="PM"
