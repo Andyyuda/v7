@@ -124,6 +124,10 @@ echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
 echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "🔰AUTO PRINT AKUN SSH🔰 "
+echo -e "Tinggal Copy: $domen:80@$Login:$Pass"
+echo -e "Tinggal Copy: $domen:443@$Login:$Pass"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e " 🔰Account OpenVPN🔰 "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
@@ -167,8 +171,8 @@ Expired On  : $exp
 Tinggal Copy: $domen:80/443@$Login:$Pass
 IP          : $IP
 Host        : $domen
-Host DNS    : $NS
-PUB KEY     : ${PUB}
+Host DNS    : $sldomain
+PUB KEY     : $slkey
 User Quota  : ${Quota} GB
 OpenSSH     : $opensh
 Dropbear    : $db
@@ -184,6 +188,10 @@ OHP OpenSSH : 8686
 OHP OpenVPN : 8787
 Prot Squid  : $sqd
 UDPGW       : 7100-7300
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔰AUTO PRINT AKUN SSH🔰
+Tinggal Copy: $domen:80@$Login:$Pass
+Tinggal Copy: $domen:443@$Login:$Pass
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔰Account OpenVPN🔰 
 OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn
@@ -235,6 +243,10 @@ echo -e "OHP OpenSSH : 8686" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
 echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "🔰AUTO PRINT AKUN SSH🔰 "
+echo -e "Tinggal Copy: $domen:80@$Login:$Pass"
+echo -e "Tinggal Copy: $domen:443@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e " 🔰Account OpenVPN🔰 "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
