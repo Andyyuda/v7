@@ -57,7 +57,7 @@ wget -O menu-trgo "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/menu-
 wget -O menu-trojan "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/menu-trojan.sh"
 wget -O m-ssws "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/m-ssws.sh"
 wget -O updatebbr "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/updatebbr.sh"
-wget -O update "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/update.sh"
+#wget -O update "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/update.sh"
 wget -O prot "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/prot.sh"
 wget -O menu-ssh "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/menu-ssh.sh"
 wget -O usernew "https://raw.githubusercontent.com/Andyyuda/v7/main/ssh/usernew.sh"
