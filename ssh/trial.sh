@@ -3,6 +3,10 @@ dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Dat
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
 # Getting
+sldomain=$(cat /root/nsdomain)
+cdndomain=$(cat /root/awscdndomain)
+slkey=$(cat /etc/slowdns/server.pub
+clear
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -89,9 +93,9 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass"
 echo -e "IP          : $IP"
 echo -e "Host        : $domen"
-echo -e "Host DNS    : $NS"
+echo -e "Host DNS    : $sldomain"
 echo -e "User Quota  : ${Quota} GB" 
-echo -e "Pub Key     : ${PUB}"
+echo -e "Pub Key     : $slkey"
 echo -e "OpenSSH     : $opensh"
 echo -e "Dropbear    : $db"
 echo -e "SSH-WS      : $portsshws"
