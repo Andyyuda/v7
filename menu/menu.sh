@@ -139,7 +139,7 @@ echo -e " \033[32m╰═══════════════════�
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}"               
 echo -e " \033[34m│$NC \e[33m Exp Script${NC}    :  ${putih}$Exp${NC}"                                    
-echo -e " \033[34m│$NC \e[32m Version${NC}       :  ${putih}1.0.0${NC}"       
+echo -e " \033[34m│$NC \e[32m Version${NC}       :  ${putih}$(cat /opt/.ver)${NC}"       
 echo -e " \033[34m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e ""
 echo -e   " Press x or [ Ctrl+C ] • To-Exit-Script"
