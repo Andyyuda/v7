@@ -118,15 +118,15 @@ echo -e "   \e[33m Ssh/Ovpn     \e[31mVmess     \e[32mVless     \e[36mTrojan    
 echo -e " ${putih}      $total_ssh           $vmess         $vless          $trojan             $ss ${NC}"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[31m│$NC \e[34m Traffic\e[0m       \e[31mToday      \e[33mYesterday        \e[32mMonth         $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Download\e[0m   ${putih}   $dtoday    $dyest       $dmon   ${NC}                            $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}                            $NC\033[31m│$NC"
-echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}                             $NC\033[31m│$NC"
+echo -e " \033[31m│$NC \e[36m Download\e[0m   ${putih}   $dtoday    $dyest       $dmon   ${NC}               $NC\033[31m│$NC"
+echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}               $NC\033[31m│$NC"
+echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}                $NC\033[31m│$NC"
 echo -e "  \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
 
 echo -e " \033[33m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[33m│\e[0m [\e[36m01\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m04\e[0m] BOT Menu              $NC\033[33m│$NC"
 echo -e " \033[33m│\e[0m [\e[36m02\e[0m] Check Running          \033[33m│\e[0m [\e[36m05\e[0m] Backup Menu           $NC\033[33m│$NC"
-echo -e " \033[33m│\e[0m [\e[36m03\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m06\e[0m] Ganti PW VPS       $NC\033[33m│$NC"
+echo -e " \033[33m│\e[0m [\e[36m03\e[0m] Buat Account Psiphon   \033[33m│\e[0m [\e[36m06\e[0m] Ganti PW VPS          $NC\033[33m│$NC"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯${NC}"
 
 echo -e " \033[32m╭══════════════════════════════════════════════════════════╮${NC}"
@@ -135,7 +135,13 @@ echo -e " \033[32m│\e[0m [\e[36m08\e[0m] Vmess Menu                           
 echo -e " \033[32m│\e[0m [\e[36m09\e[0m] Vless Menu                           $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m10\e[0m] Trojan GFW Menu                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Install UDP                          $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Update Scripts                       $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Menu SSTP                            $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m13\e[0m] Menu L2TP                            $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m14\e[0m] Menu PPTP                            $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m15\e[0m] Menu SSR                             $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu SSL libev                       $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m17\e[0m] Menu wireguard                       $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m18\e[0m] Update Scripts                       $NC\033[32m│$NC"
 echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}"               
@@ -159,6 +165,12 @@ case $opt in
 9) clear ; menu-vless ;;
 10) clear ; menu-trojan ;;
 11) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-12) clear ; update1 ;;
+12) clear ; menu-sstp ;;
+13) clear ; menu-l2tp ;;
+14) clear ; menu-pptp ;;
+15) clear ; menu-ssr ;;
+16) clear ; menu-ssl ;;
+17) clear ; menu-wg ;;
+18) clear ; update1 ;;
 x) exit ;;
 esac
