@@ -36,6 +36,7 @@ domen=`cat /etc/v2ray/domain`
 fi
 PUB=$( cat /etc/slowdns/server.pub )
 NS=`cat /etc/xray/dns`
+sldomain=`cat /root/nsdomain`
 portsshws=`cat ~/log-install.txt | grep -w "SSH Websocket" | cut -d: -f2 | awk '{print $1}'`
 wsssl=`cat /root/log-install.txt | grep -w "SSH SSL Websocket" | cut -d: -f2 | awk '{print $1}'`
 
@@ -89,7 +90,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass"
 echo -e "IP          : $IP"
 echo -e "Host        : $domen"
-echo -e "Host DNS    : $NS"
+echo -e "Host DNS    : $sldomain"
 echo -e "User Quota  : ${Quota} GB" 
 echo -e "Pub Key     : ${PUB}"
 echo -e "OpenSSH     : $opensh"
@@ -212,7 +213,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass"
 echo -e "IP          : $IP"
 echo -e "Host        : $domen"
-echo -e "Host DNS    : $NS"
+echo -e "Host DNS    : $sldomain"
 echo -e "User Quota  : ${Quota} GB" 
 echo -e "Pub Key     : ${PUB}"
 echo -e "OpenSSH     : $opensh"
