@@ -90,7 +90,6 @@ echo -e "Username    : $Login"
 echo -e "Password    : $Pass"
 echo -e "Expired On  : $masaaktif"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass"
 echo -e "IP          : $IP"
 echo -e "Host        : $domen"
 echo -e "Host DNS    : $sldomain"
@@ -110,6 +109,10 @@ echo -e "OHP Dropbear: 8585"
 echo -e "OHP OpenSSH : 8686"
 echo -e "OHP OpenVPN : 8787"
 echo -e "UDPGW       : 7100-7300"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "AUTO PRINT AKUN SSH
+echo -e "Tinggal Copy: $domen:80@$Login:$Pass"
+echo -e "Tinggal Copy: $domen:443@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
@@ -154,8 +157,8 @@ Expired On  : $exp
 Tinggal Copy: $domen:80/443@$Login:$Pass
 IP          : $IP
 Host        : $domen
-Host DNS    : $NS
-PUB KEY     : ${PUB}
+Host DNS    : $sldomain
+PUB KEY     : $slkey
 OpenSSH     : $opensh
 Dropbear    : $db
 SSH-WS      : $portsshws
@@ -170,6 +173,10 @@ OHP OpenSSH : 8686
 OHP OpenVPN : 8787
 Prot Squid  : $sqd
 UDPGW       : 7100-7300
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUTO PRINT AKUN SSH
+Tinggal Copy: $domen:80@$Login:$Pass
+Tinggal Copy: $domen:443@$Login:$Pass
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Account OpenVPN
 OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn
@@ -216,9 +223,9 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass"
 echo -e "IP          : $IP"
 echo -e "Host        : $domen"
-echo -e "Host DNS    : $NS"
+echo -e "Host DNS    : $sldomain"
 echo -e "User Quota  : ${Quota} GB" 
-echo -e "Pub Key     : ${PUB}"
+echo -e "Pub Key     : $slkey"
 echo -e "OpenSSH     : $opensh"
 echo -e "Dropbear    : $db"
 echo -e "SSH-WS      : $portsshws"
@@ -233,6 +240,10 @@ echo -e "OHP Dropbear: 8585"
 echo -e "OHP OpenSSH : 8686"
 echo -e "OHP OpenVPN : 8787"
 echo -e "UDPGW       : 7100-7300"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "AUTO PRINT AKUN SSH
+echo -e "Tinggal Copy: $domen:80@$Login:$Pass"
+echo -e "Tinggal Copy: $domen:443@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
