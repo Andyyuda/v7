@@ -121,7 +121,7 @@ echo -e " \033[31m│$NC \e[34m Traffic\e[0m       \e[31mToday      \e[33mYester
 echo -e " \033[31m│$NC \e[36m Download\e[0m   ${putih}   $dtoday    $dyest       $dmon   ${NC}                    $NC\033[31m│$NC"
 echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}                      $NC\033[31m│$NC"
 echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}                      $NC\033[31m│$NC"
-echo -e "  \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
+echo -e " \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
 
 echo -e " \033[33m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[33m│\e[0m [\e[36m01\e[0m] SYSTEM Menu            \033[33m│\e[0m [\e[36m04\e[0m] BOT Menu              $NC\033[33m│$NC"
