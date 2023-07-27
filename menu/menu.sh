@@ -158,6 +158,5 @@ case $opt in
 9) clear ; menu-vless ;;
 10) clear ; menu-trojan ;;
 11) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-
 x) exit ;;
 esac
