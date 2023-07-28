@@ -31,10 +31,10 @@ echo -e " \033[34m│$NC\033[33m                       MENU BOT                 
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[32m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[35m│$NC [01]${NC} \033[0;36m Daftar BOT${NC}"
-echo -e " \033[35m│$NC [02]${NC} \033[0;36m Chek User Bot Trojan${NC}"
-echo -e " \033[35m│$NC [03]${NC} \033[0;36m Chek User Bot Vless${NC}"
+echo -e " \033[35m│$NC [02]${NC} \033[0;36m Chek User Login Bot Trojan${NC}"
+echo -e " \033[35m│$NC [03]${NC} \033[0;36m Chek User Login Bot Vless${NC}"
 echo -e " \033[35m│$NC [04]${NC} \033[0;36m Chek User Login Bot SSH${NC}
-echo -e " \033[35m│$NC [05]${NC} \033[0;36m Chek User Bot Vmess${NC}"
+echo -e " \033[35m│$NC [05]${NC} \033[0;36m Chek User Login Bot Vmess${NC}"
 echo -e " \033[35m│$NC [06]${NC} \033[0;36m Chek User Login Bot ShadowSock${NC}"
 echo -e " \033[35m│$NC [0]${NC} \033[0;36m Exit${NC}"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
