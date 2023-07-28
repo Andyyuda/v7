@@ -96,3 +96,4 @@ if [[ ${split} != "" ]]; then
     done
 fi
 echo ""
+menu-bot
