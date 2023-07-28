@@ -50,5 +50,5 @@ case $opt in
 6) clear ; bot-cek-ssws ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; menu ;;
+*) echo "Anda salah tekan " ; sleep 1 ;;
 esac
