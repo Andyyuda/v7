@@ -40,7 +40,7 @@ echo -e " \033[35m│$NC [0]${NC} \033[0;36m Exit${NC}"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
 echo -e ""
-read -p " Select From Options [ 1 - 3 ] : " opt
+read -p " Select From Options [ 1 - 4 ] : " opt
 echo -e ""
 case $opt in
 1) clear ; wget ${BOT} && chmod +x cupu.sh && ./cupu.sh ; exit ;;
