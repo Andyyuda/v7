@@ -169,7 +169,7 @@ case $opt in
 13) clear ; menu-l2tp ;;
 14) clear ; menu-pptp ;;
 15) clear ; menu-ssr ;;
-16) clear ; menu-ssl ;;
+16) clear ; m-ssws ;;
 17) clear ; menu-wg ;;
 18) clear ; update1 ;;
 x) exit ;;
