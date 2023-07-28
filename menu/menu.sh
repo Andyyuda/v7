@@ -134,7 +134,7 @@ echo -e " \033[32m│\e[0m [\e[36m07\e[0m] SSH & OpenVPN Menu                   
 echo -e " \033[32m│\e[0m [\e[36m08\e[0m] Vmess Menu                                          $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m09\e[0m] Vless Menu                                          $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m10\e[0m] Trojan GFW Menu                                     $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Menu Shadowsocks Ws                                 $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Shadowsocks Ws                                 $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Install UDP                                         $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m13\e[0m] Menu SSTP                                           $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m14\e[0m] Menu L2TP                                           $NC\033[32m│$NC"
