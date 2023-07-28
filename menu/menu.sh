@@ -140,7 +140,6 @@ echo -e " \033[32m│\e[0m [\e[36m13\e[0m] Menu SSTP                            
 echo -e " \033[32m│\e[0m [\e[36m14\e[0m] Menu L2TP                                           $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m15\e[0m] Menu PPTP                                           $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu SSR                                            $NC\033[32m│$NC"
-#echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu Shadowsocks Ws                                 $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m17\e[0m] Menu wireguard                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m18\e[0m] Update Scripts                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m19\e[0m] Change banner                                       $NC\033[32m│$NC"
