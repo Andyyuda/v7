@@ -134,12 +134,13 @@ echo -e " \033[32m│\e[0m [\e[36m07\e[0m] SSH & OpenVPN Menu                   
 echo -e " \033[32m│\e[0m [\e[36m08\e[0m] Vmess Menu                                          $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m09\e[0m] Vless Menu                                          $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m10\e[0m] Trojan GFW Menu                                     $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Install UDP                                         $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Menu SSTP                                           $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m13\e[0m] Menu L2TP                                           $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m14\e[0m] Menu PPTP                                           $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m15\e[0m] Menu SSR                                            $NC\033[32m│$NC"
-echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu Shadowsocks Ws                                 $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m11\e[0m] Menu Shadowsocks Ws                                 $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m12\e[0m] Install UDP                                         $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m13\e[0m] Menu SSTP                                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m14\e[0m] Menu L2TP                                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m15\e[0m] Menu PPTP                                           $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu SSR                                            $NC\033[32m│$NC"
+#echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu Shadowsocks Ws                                 $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m17\e[0m] Menu wireguard                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m18\e[0m] Update Scripts                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m19\e[0m] Change banner                                       $NC\033[32m│$NC"
@@ -165,12 +166,12 @@ case $opt in
 8) clear ; menu-vmess ;;
 9) clear ; menu-vless ;;
 10) clear ; menu-trojan ;;
-11) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-12) clear ; menu-sstp ;;
-13) clear ; menu-l2tp ;;
-14) clear ; menu-pptp ;;
-15) clear ; menu-ssr ;;
-16) clear ; m-ssws ;;
+11) clear ; m-ssws ;;
+12) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+13) clear ; menu-sstp ;;
+14) clear ; menu-l2tp ;;
+15) clear ; menu-pptp ;;
+16) clear ; menu-ssr ;;
 17) clear ; menu-wg ;;
 18) clear ; update1 ;;
 19) clear ; nano /etc/issue.net ;;
