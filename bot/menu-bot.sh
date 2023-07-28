@@ -23,6 +23,7 @@ exit
 fi
 }
 checking_sc
+BOT="https://raw.githubusercontent.com//Andyyuda/xolpanel/main/cupu.sh"
 clear
 echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
@@ -39,7 +40,7 @@ echo -e ""
 read -p " Select From Options [ 1 - 3 ] : " opt
 echo -e ""
 case $opt in
-1) clear ; apt update && apt install wget -y && wget https://raw.githubusercontent.com//Andyyuda/xolpanel/main/cupu.sh && chmod +x cupu.sh && ./cupu.sh ; exit ;;
+1) clear ; wget ${BOT} && chmod +x cupu.sh && ./cupu.sh ; exit ;;
 2) clear ; add-bot-notif ; exit ;;
 3) clear ; del-bot-notif ; exit ;;
 0) clear ; menu ; exit ;;
