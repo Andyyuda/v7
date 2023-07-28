@@ -10,6 +10,7 @@ Green="\033[32m"
 Red="\033[31m"
 WhiteB="\e[5;37m"
 BlueCyan="\e[5;36m"
+MYIP=$(wget -qO- ipv4.icanhazip.com)
 Green_background="\033[42;37m"
 Red_background="\033[41;37m"
 Suffix="\033[0m"
