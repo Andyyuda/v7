@@ -46,7 +46,6 @@ case $opt in
 1) clear ; wget ${BOT} && chmod +x cupu.sh && ./cupu.sh ; exit ;;
 2) clear ; bot-cek-tr ; exit ;;
 3) clear ; bot-cek-vless ; exit ;;
-4) clear ; bot-cek-login-ssh ; exit ;;
 5) clear ; bot-cek-ws ; exit ;;
 6) clear ; bot-cek-ssws ; exit ;;
 0) clear ; menu ; exit ;;
