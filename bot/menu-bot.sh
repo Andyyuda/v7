@@ -43,7 +43,7 @@ echo -e ""
 read -p " Select From Options [ 1 - 4 ] : " opt
 echo -e ""
 case $opt in
-1) clear ; wget ${BOT} && chmod +x cupu.sh && ./cupu.sh ; exit ;;
+1) clear ; wget ${BOT} && chmod +x cupu.sh && ./cupu.sh ;;
 2) clear ; bot-cek-tr ; exit ;;
 3) clear ; bot-cek-vless ; exit ;;
 5) clear ; bot-cek-ws ; exit ;;
