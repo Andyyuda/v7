@@ -143,7 +143,8 @@ wget -q -O /usr/bin/acs-set "https://raw.githubusercontent.com/Andyyuda/v7/main/
 wget -q -O /usr/bin/sshws "https://raw.githubusercontent.com/Andyyuda/v7/main/ssh/sshws.sh"
 wget -q -O /usr/bin/bot "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/bot.sh"
 wget -q -O /usr/bin/add-bot-notif "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/add-bot-notif.sh"
-wget -q -O /usr/bin/del-bot-notif "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/del-bot-notif.sh"
+wget -q -O /usr/bin/del-bot-notif "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/bot-cek-tr.sh"
+wget -q -O /usr/bin/bot-cek-tr "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/add-bot-notif.sh"
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/Andyyuda/v7/main/bot/menu-bot.sh"
 wget -q -O /usr/bin/menu-sstp "https://raw.githubusercontent.com/Andyyuda/sstp/main/menu-sstp.sh"
 wget -q -O /usr/bin/menu-l2tp "https://raw.githubusercontent.com/Andyyuda/ipsec/main/menu-l2tp.sh"
@@ -200,6 +201,7 @@ chmod +x /usr/bin/menu-ssr
 chmod +x /usr/bin/menu-ssl
 chmod +x /usr/bin/menu-wg
 chmod +x /usr/bin/update1
+chmod +x /usr/bin/bot-cek-tr
 clear
 echo -e ""
 echo -e "\e[0;32mDownloaded successfully!\e[0m"
