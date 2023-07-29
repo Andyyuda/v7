@@ -143,6 +143,7 @@ echo -e " \033[32m│\e[0m [\e[36m16\e[0m] Menu SSR                             
 echo -e " \033[32m│\e[0m [\e[36m17\e[0m] Menu wireguard                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m18\e[0m] Update Scripts                                      $NC\033[32m│$NC"
 echo -e " \033[32m│\e[0m [\e[36m19\e[0m] Change banner                                       $NC\033[32m│$NC"
+echo -e " \033[32m│\e[0m [\e[36m20\e[0m] Trojan Go                                       $NC\033[32m│$NC"
 echo -e " \033[32m╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " \033[34m╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " \033[34m│$NC \e[31m Client Name${NC}   :  ${putih}$Name${NC}"               
@@ -174,5 +175,6 @@ case $opt in
 17) clear ; menu-wg ;;
 18) clear ; update1 ;;
 19) clear ; nano /etc/issue.net ;;
+20) clear ; menu-trgo ;;
 x) exit ;;
 esac
