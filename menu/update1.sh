@@ -12,7 +12,7 @@ echo ""
 version=$(cat /home/ver)
 ver=$( curl https://raw.githubusercontent.com/${GitUser}/v7/main/version )
 clear
-# LINE COLOUR
+## LINE COLOUR
 line=$(cat /etc/line)
 # TEXT COLOUR BELOW
 below=$(cat /etc/below)
