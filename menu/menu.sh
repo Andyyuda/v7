@@ -118,7 +118,7 @@ echo -e "   \e[33m Ssh/Ovpn     \e[31mVmess     \e[32mVless     \e[36mTrojan    
 echo -e " ${putih}      $total_ssh           $vmess         $vless          $trojan             $ss ${NC}"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[31m│$NC \e[34m Download\e[0m   \e[34m Upload\e[0m    \e[31m   \e[33mYesterday       \e[32mMonth         $NC\033[31m│$NC"
-echo -e " \033[31m│$NC ${putih} $dtoday    $utoday       $tyest   ${NC}     $tmon                $NC\033[31m│$NC"
+echo -e " \033[31m│$NC ${putih} $dtoday    $utoday         $tyest   ${NC}     $tmon               $NC\033[31m│$NC"
 #echo -e " \033[31m│$NC \e[36m Upload\e[0m     ${putih}   $utoday    $uyest       $umon   ${NC}            $NC\033[31m│$NC"
 #echo -e " \033[31m│$NC \e[36m Total\e[0m       ${putih}  $ttoday    $tyest       $tmon  ${NC}             $NC\033[31m│$NC"
 echo -e " \033[31m╰══════════════════════════════════════════════════════════╯\e[0m"
