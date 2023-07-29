@@ -156,7 +156,7 @@ wget -q -O /usr/bin/menu-wg "https://raw.githubusercontent.com/Andyyuda/wireguar
 wget -q -O /usr/bin/update1 "https://raw.githubusercontent.com/Andyyuda/v7/main/menu/update1.sh"
 wget -q -O /usr/bin/addtrgo "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/addtrgo.sh"
 wget -q -O /usr/bin/cektrgo "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/cektrgo.sh"
-wget -q -O /usr/bin/triatrojango "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/trialtrojango.sh"
+wget -q -O /usr/bin/trialtrojango "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/trialtrojango.sh"
 wget -q -O /usr/bin/deltrgo "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/deltrgo.sh"
 wget -q -O /usr/bin/renewtrgo "https://raw.githubusercontent.com/Andyyuda/v7/main/xray/renewtrgo.sh"
 chmod +x /usr/bin/trialtrojango
