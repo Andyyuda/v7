@@ -45,7 +45,7 @@ read -p " Select menu : " opt
 echo -e ""
 case $opt in
 1) clear ; addtrgo ;;
-2) clear ; trialtrojango ;;
+2) clear ; triatrojango ;;
 3) clear ; renewtrgo ;;
 4) clear ; deltrgo ;;
 5) clear ; cektrgo ;;
