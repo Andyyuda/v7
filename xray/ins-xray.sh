@@ -190,7 +190,7 @@ cat > /etc/xray/config.json << END
      },
     {
          "listen": "127.0.0.1",
-        "port": "2087",
+        "port": "30300",
         "protocol": "shadowsocks",
         "settings": {
            "clients": [
